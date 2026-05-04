@@ -1,12 +1,12 @@
-# 🚗🤖 Projet : Robot Autonome avec Système de Feux Tricolores Intelligents
+#  Projet : Robot Autonome avec Système de Feux Tricolores Intelligents
 
-## 👨‍💻 Auteurs
+##  Auteurs
 - **Jean Jifferson DELLY**
 - **Dülze Hkloë Shaikelta Sassie LOUIS**
 
 ---
 
-## 📌 Description du projet
+##  Description du projet
 
 Ce projet consiste à concevoir et programmer un robot autonome basé sur **CuteBot** et **Micro:bit**, capable de simuler un **système de feux tricolores** tout en intégrant une **détection d’obstacles en temps réel**.
 
@@ -18,9 +18,9 @@ afin de créer un robot capable de se déplacer de manière **autonome, intellig
 
 ---
 
-## 🧠 Évolution du projet
+##  Évolution du projet
 
-### 🔰 Version initiale : Simulation simple
+###  Version initiale : Simulation simple
 
 Au début, le projet était une simulation basique des feux tricolores :
 
@@ -33,13 +33,13 @@ Chaque état :
 - jouait un son distinct  
 - contrôlait la vitesse des moteurs  
 
-#### ❌ Limitation
+####  Limitation
 Le robot ne tenait pas compte de son environnement.  
 Il pouvait donc entrer en collision avec des obstacles.
 
 ---
 
-### 🚀 Version améliorée : Mode intelligent (sécurisé)
+###  Version améliorée : Mode intelligent (sécurisé)
 
 Nous avons ensuite amélioré le système en ajoutant :
 
@@ -52,9 +52,9 @@ Le robot est ainsi devenu **réactif à son environnement**, capable d’éviter
 
 ---
 
-## ⚙️ Fonctionnement du système
+##  Fonctionnement du système
 
-### 🔁 Cycle principal
+###  Cycle principal
 
 Le robot exécute en boucle le cycle suivant :
 
@@ -66,19 +66,19 @@ Ce cycle se répète indéfiniment.
 
 ---
 
-### 👀 Détection d’obstacles
+###  Détection d’obstacles
 
 Le robot utilise un capteur ultrasonique pour mesurer la distance :
 
 - Si un obstacle est détecté à moins de **15 cm** :
-  - 🚨 arrêt immédiat  
-  - 🔊 alerte sonore  
-  - 🔁 recul automatique  
-  - ⛔ arrêt du cycle en cours  
+  -  arrêt immédiat  
+  -  alerte sonore  
+  -  recul automatique  
+  -  arrêt du cycle en cours  
 
 ---
 
-### 🧠 Fonction principale : `safe_run()`
+###  Fonction principale : `safe_run()`
 
 Cette fonction est le cœur du système intelligent.
 
@@ -91,7 +91,7 @@ Contrairement à une exécution classique, elle :
 
 ---
 
-### 🚨 Arrêt d’urgence
+###  Arrêt d’urgence
 
 En cas de détection d’un obstacle :
 
@@ -102,17 +102,17 @@ En cas de détection d’un obstacle :
 
 ---
 
-### 💡 Indicateurs visuels et sonores
+###  Indicateurs visuels et sonores
 
 Chaque état du feu est associé à :
 
-- 🖥️ un affichage LED  
-- 🔊 une fréquence sonore spécifique  
-- ⚙️ une vitesse de déplacement différente  
+-  un affichage LED  
+-  une fréquence sonore spécifique  
+-  une vitesse de déplacement différente  
 
 ---
 
-## 🧩 Technologies utilisées
+##  Technologies utilisées
 
 - Micro:bit  
 - CuteBot  
@@ -121,7 +121,7 @@ Chaque état du feu est associé à :
 
 ---
 
-## 🎯 Objectifs pédagogiques
+##  Objectifs pédagogiques
 
 Ce projet permet de développer des compétences en :
 
@@ -134,18 +134,18 @@ Ce projet permet de développer des compétences en :
 
 ---
 
-## 🚀 Perspectives d’amélioration
+##  Perspectives d’amélioration
 
 Améliorations possibles :
 
-- 🔄 éviter les obstacles en tournant (au lieu de reculer)  
-- 📏 afficher la distance sur la matrice LED  
-- 🎮 ajouter un contrôle manuel (bouton ou Bluetooth)  
-- 🧭 implémenter une navigation autonome avancée  
+-  éviter les obstacles en tournant (au lieu de reculer)  
+-  afficher la distance sur la matrice LED  
+-  ajouter un contrôle manuel (bouton ou Bluetooth)  
+-  implémenter une navigation autonome avancée  
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 
 Ce projet montre l’évolution :
 
