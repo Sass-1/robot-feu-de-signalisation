@@ -8,7 +8,7 @@
 
 ##  Description du projet
 
-Ce projet consiste à concevoir et programmer un robot autonome basé sur **CuteBot** et **Micro:bit**, capable de simuler un **système de feux tricolores** tout en intégrant une **détection d’obstacles en temps réel**.
+Ce projet consiste à concevoir et programmer un robot autonome basé sur **CuteBot**, capable de simuler un **système de feux tricolores** .
 
 L’objectif est de combiner :
 - 🚦 la logique des feux de circulation  
@@ -45,8 +45,7 @@ Nous avons ensuite amélioré le système en ajoutant :
 
 - ✅ Détection d’obstacles avec capteur ultrason  
 - ✅ Arrêt d’urgence automatique  
-- ✅ Recul en cas de danger  
-- ✅ Contrôle intelligent du mouvement  
+
 
 Le robot est ainsi devenu **réactif à son environnement**, capable d’éviter les collisions.
 
@@ -73,8 +72,7 @@ Le robot utilise un capteur ultrasonique pour mesurer la distance :
 - Si un obstacle est détecté à moins de **15 cm** :
   -  arrêt immédiat  
   -  alerte sonore  
-  -  recul automatique  
-  -  arrêt du cycle en cours  
+  
 
 ---
 
@@ -98,7 +96,6 @@ En cas de détection d’un obstacle :
 - les moteurs s’arrêtent immédiatement  
 - un motif LED d’alerte s’affiche  
 - un son grave est émis  
-- le robot recule automatiquement  
 
 ---
 
@@ -138,7 +135,7 @@ Ce projet permet de développer des compétences en :
 
 Améliorations possibles :
 
--  éviter les obstacles en tournant (au lieu de reculer)  
+-  éviter les obstacles en tournant   
 -  afficher la distance sur la matrice LED  
 -  ajouter un contrôle manuel (bouton ou Bluetooth)  
 -  implémenter une navigation autonome avancée  
